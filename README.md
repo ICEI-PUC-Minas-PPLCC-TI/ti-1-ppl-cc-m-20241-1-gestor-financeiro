@@ -7,6 +7,8 @@ Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 * Thiago Henrique Figueredo de Oliveira
 * Gabriel Costa Vianna
 * Arthur Costa Serra Negra
+* Bernardo Pires Mascarenhas
+* Lucas Stancioli Siqueira
 * Eduardo Luttembarck Vieira
 
 ## Professores responsáveis
