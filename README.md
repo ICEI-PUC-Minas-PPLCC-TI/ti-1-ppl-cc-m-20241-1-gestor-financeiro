@@ -7,7 +7,7 @@ Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 * Thiago Henrique Figueredo de Oliveira
 * Gabriel Costa Vianna
 * Arthur Costa Serra Negra
-* Nome completo do aluno 4
+* Eduardo Luttembarck Vieira
 
 ## Professores responsáveis
 
