@@ -1,6 +1,6 @@
-# Nome do projeto
+# Investe Bein
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+O projeto Investe Bein se resume em um aplicativo que traz a solução para problemas financeiros, como dívidas, que, muitas vezes, se originam e se acumulam devido o desconhecimento a respeito de como organizar as proprias financas. O aplicativo auxilia o usuário a usar seu dinheiro de forma sábia, podendo economizar uma certa renda, alertar o usuário à respeito de seus gastos, ou orientá-lo para investir seu dinheiro.
 
 ## Alunos integrantes da equipe
 
