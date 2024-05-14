@@ -1,0 +1,146 @@
+body {
+    background-color: #FAF4F2;
+}
+
+.tittle {
+    font-size: 20px;
+}
+
+.content {
+    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.cadastros {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.ganhos {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: -webkit-linear-gradient(#FFFFFF, #89e292);
+}
+
+.gastos {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: -webkit-linear-gradient(#FFFFFF, #f57c7c);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.menu button {
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    width: 250px;
+    height: 150px;
+}
+
+.menu button:hover {
+    background-color: rgb(192, 185, 185);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.novoGanho {
+    position: relative;
+}
+
+.novoGanho textarea {
+    resize: none;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.novoGanho button {
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.novoGasto {
+    position: relative;
+}
+
+.novoGasto textarea {
+    resize: none;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.novoGasto button {
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+#valor {
+    border-radius: 15px;
+    width: 200px;
+    height: 25px;
+}
+
+#titulo {
+    border-radius: 15px;
+    width: 200px;
+    height: 25px;
+}
