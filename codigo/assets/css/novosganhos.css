@@ -160,3 +160,7 @@ h2 {
 .tittleGastos {
     color: #c50000;
 }
+
+.menu a {
+    text-decoration: none;
+}
