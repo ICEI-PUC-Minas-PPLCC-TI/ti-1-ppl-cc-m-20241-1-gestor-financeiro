@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/novosganhos.css">
+    <link rel="stylesheet" href="/codigo/assets/css/novosganhos.css">
 </head>
 <body>
     <div class="tittle">
@@ -19,7 +19,7 @@
                         <label for="valorGanho">
                             Valor
                         </label>
-                        <input type="text" id="valorGanho" name="valorGanho">
+                        <input type="text" id="valorGanho" name="valorGanho" value="R$00,00" onkeyup="mascara(this)">
                     </div>
                     <div class="campo">
                         <label for="tituloGanho">
@@ -43,7 +43,7 @@
                         <label for="valorGasto">
                             Valor
                         </label>
-                        <input type="text" id="valorGasto" name="valorGasto">
+                        <input type="text" id="valorGasto" name="valorGasto" value="R$00,00" onkeyup="mascara2(this)">
                     </div>
                     <div class="campo">
                         <label for="tituloGasto">
@@ -62,9 +62,10 @@
             </div>
         </div>
         <div class="menu">
-            <a href="index.html"><button>Pagina Inicial</button></a>
+            <a href="/codigo/index.html"><button>Pagina Inicial</button></a>
             <button>Controle de gastos/ganhos</button>
         </div>
     </div>
+    <script src="/codigo/assets/js/novosganhos.js"></script>
     </body>
 </html>
