@@ -3,7 +3,7 @@ function mascara(valor) {
 
     if (valorAtual.length === 1 && valorAtual === '0') {
         // Se o valor digitado for apenas '0', limpa o campo
-        valor.value = '';
+        valor.value = '0000';
         return;
     }
 
@@ -11,7 +11,7 @@ function mascara(valor) {
     valorAtual = valorAtual.replace(/^0+/, '');
 
     if (valorAtual === '') {
-        valorAtual = '0'; // Se o campo estiver vazio, define '0' como valor padrão
+        valorAtual = '0000'; // Se o campo estiver vazio, define '0' como valor padrão
     }
 
     var valorFormatado = 'R$' + valorAtual.substring(0, valorAtual.length - 2) + ',' + valorAtual.substring(valorAtual.length - 2);
@@ -23,8 +23,8 @@ function mascara2(valor) {
     var valorAtual = valor.value.replace(/[^\d]/g, ""); // Remove todos os não dígitos
 
     if (valorAtual.length === 1 && valorAtual === '0') {
-        // Se o valor digitado for apenas '0', limpa o campo
-        valor.value = '';
+        // Se o valor digitado for apenas '0', limpa o campo, ja que o primeiro valor deve necessariamente ser um numero maior que 0
+        valor.value = '0000';
         return;
     }
 
@@ -32,7 +32,7 @@ function mascara2(valor) {
     valorAtual = valorAtual.replace(/^0+/, '');
 
     if (valorAtual === '') {
-        valorAtual = '0'; // Se o campo estiver vazio, define '0' como valor padrão
+        valorAtual = '0000'; // Se o campo estiver vazio, define '0000' como valor padrão
     }
 
     var valorFormatado = 'R$' + valorAtual.substring(0, valorAtual.length - 2) + ',' + valorAtual.substring(valorAtual.length - 2);
