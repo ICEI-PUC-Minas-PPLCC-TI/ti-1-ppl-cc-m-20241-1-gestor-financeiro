@@ -1,16 +1,27 @@
-body {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     background-color: #FAF4F2;
+    background: -webkit-linear-gradient(#c2b6b6, #FAF4F2);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 .tittle {
-    font-size: 20px;
+    font-size: 30px;
+    margin-left: 45px;
 }
 
 .content {
     grid-template-columns: repeat(2,1fr);
     display: flex;
-    margin-top: 100px;
     align-items: center;
+    flex: 1;
 }
 
 .cadastros {
@@ -21,7 +32,7 @@ body {
 
 .ganhos {
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 35px;
     padding: 15px;
     align-items: center;
     justify-content: center;
@@ -35,7 +46,7 @@ body {
 
 .gastos {
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 35px;
     padding: 15px;
     align-items: center;
     justify-content: center;
@@ -65,12 +76,14 @@ body {
     align-items: center;
     justify-content: center;
     transition: 0.2s;
-    width: 250px;
-    height: 150px;
+    width: 450px;
+    height: 100px;
+    font-size: 30px;
+    margin: 30px;
 }
 
 .menu button:hover {
-    background-color: rgb(192, 185, 185);
+    background-color: rgb(226, 223, 223);
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     cursor: pointer;
@@ -129,18 +142,21 @@ body {
     cursor: pointer;
 }
 
+#valorGanho,  #valorGasto, #tituloGanho, #tituloGasto {
+    border-radius: 15px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+}
+
 h2 {
     font-size: 50px;
 }
 
-#valor {
-    border-radius: 15px;
-    width: 200px;
-    height: 25px;
+.tittleGanhos {
+    color: #10c72f;
 }
 
-#titulo {
-    border-radius: 15px;
-    width: 200px;
-    height: 25px;
+.tittleGastos {
+    color: #c50000;
 }
