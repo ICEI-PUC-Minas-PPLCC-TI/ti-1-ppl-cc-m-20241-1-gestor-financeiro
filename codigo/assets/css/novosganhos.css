@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #FAF4F2;
-    background: -webkit-linear-gradient(#c2b6b6, #FAF4F2);
+    background: -webkit-linear-gradient(#FAF4F2, #c2b6b6);
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 .tittle {
-    font-size: 30px;
+    font-size: 29px;
     margin-left: 45px;
 }
 
@@ -41,7 +41,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: -webkit-linear-gradient(#FFFFFF, #89e292);
+    background: -webkit-linear-gradient(#89e292, #b1b0b0);
 }
 
 .gastos {
@@ -55,7 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: -webkit-linear-gradient(#FFFFFF, #f57c7c);
+    background: -webkit-linear-gradient(#f57c7c, #b1b0b0);
 }
 
 .menu {
@@ -163,4 +163,26 @@ h2 {
 
 .menu a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 1406px) {
+    body, html {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        width: 100%;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    #valorGanho,  #valorGasto, #tituloGanho, #tituloGasto {
+        width: 150px;
+    }
+    .novoGanho textarea, .novoGasto textarea {
+        width: 240px;
+    }
+    .content {
+        align-items: start;
+        display: block;
+    }
 }
