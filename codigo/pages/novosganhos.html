@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Freeman&family=Lilita+One&family=Poetsen+One&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
 </head>
 <body>
     <div class="tittle">
@@ -23,7 +25,7 @@
                         <label for="valorGanho">
                             Valor
                         </label>
-                        <input type="text" id="valorGanho" name="valorGanho" value="R$00,00" onkeyup="mascara(this)">
+                        <input class="custom4" type="text" id="valorGanho" name="valorGanho">
                     </div>
                     <div class="campo">
                         <label for="tituloGanho">
@@ -47,7 +49,7 @@
                         <label for="valorGasto">
                             Valor
                         </label>
-                        <input type="text" id="valorGasto" name="valorGasto" value="R$00,00" onkeyup="mascara2(this)">
+                        <input class="custom4" type="text" id="valorGasto" name="valorGasto"">
                     </div>
                     <div class="campo">
                         <label for="tituloGasto">
@@ -70,6 +72,7 @@
             <button>Controle de gastos/ganhos</button>
         </div>
     </div>
+
     <script src="/codigo/assets/js/novosganhos.js"></script>
     </body>
 </html>
