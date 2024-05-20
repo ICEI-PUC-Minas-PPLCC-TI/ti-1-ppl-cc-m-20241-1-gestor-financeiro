@@ -5,48 +5,52 @@ $(function() {
 const novoGanho = document.querySelector(".novoGanho")
 const novoGasto = document.querySelector(".novoGasto")
 
-let extrato = []
 
-function salvarLocalStorage(extrato) {
-  localStorage.removeItem("extrato")
-  localStorage.setItem("extrato", JSON.stringify(extrato))
-}
 
-novoGanho.addEventListener("submit", function(event) {
+novoGanho.addEventListener("submit", async function(event) {
   event.preventDefault()
   const valorGanho = document.querySelector("#valorGanho")
   event.preventDefault()
   const tituloGanho = document.querySelector("#tituloGanho")
   event.preventDefault()
   const descricaoGanho = document.querySelector("#descricaoGanho")
-  let transacao = {
-    tipo: "ganho",
-    valor: valorGanho.value,
-    descrição: descricaoGanho.value,
-    titulo: tituloGanho.value
-  }
-  extrato.push(transacao)
-  salvarLocalStorage(extrato)
+  await fetch("https://1a770c80-41ff-4f19-8cb5-699967f55bcb-00-1395yp0me7mv2.kirk.replit.dev/extrato", {
+    method:"POST",
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      tipo: "Ganho",
+      valor: valorGanho.value,
+      descricao: descricaoGanho.value,
+      titulo: tituloGanho.value
+    })
+  })
+  
   valorGanho.value = ''
   tituloGanho.value = ''
   descricaoGanho.value = ''
 })
 
-novoGasto.addEventListener("submit", function(event) {
+novoGasto.addEventListener("submit", async function(event) {
   event.preventDefault()
   const valorGasto = document.querySelector("#valorGasto")
   event.preventDefault()
   const tituloGasto = document.querySelector("#tituloGasto")
   event.preventDefault()
   const descricaoGasto = document.querySelector("#descricaoGasto")
-  let transacao = {
-    tipo: "gasto",
+  await fetch("https://1a770c80-41ff-4f19-8cb5-699967f55bcb-00-1395yp0me7mv2.kirk.replit.dev/extrato", {
+    method:"POST",
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+    tipo: "Gasto",
     valor: valorGasto.value,
-    descrição: descricaoGasto.value,
+    descricao: descricaoGasto.value,
     titulo: tituloGasto.value
-  }
-  extrato.push(transacao)
-  salvarLocalStorage(extrato)
+    })
+  })
   valorGasto.value = ''
   tituloGasto.value = ''
   descricaoGasto.value = ''
