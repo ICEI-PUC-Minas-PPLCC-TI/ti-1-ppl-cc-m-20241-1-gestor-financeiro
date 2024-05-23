@@ -1,0 +1,154 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF4F2;
+    background: -webkit-linear-gradient(#FAF4F2, #c2b6b6);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 110%;
+}
+
+.tittle {
+    font-size: 29px;
+    margin-left: 45px;
+}
+
+.content {
+    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.cadastros {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.objetivos {
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: -webkit-linear-gradient(#1050c7, #b1b0b0);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.menu button {
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    width: 550px;
+    height: 100px;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.menu button:hover {
+    background-color: rgb(226, 223, 223);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.novoObjetivo {
+    position: relative;
+}
+
+.novoObjetivo textarea {
+    resize: none;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.novoObjetivo button {
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    cursor: pointer;
+    width: 150px;
+    height: 33px;
+}
+
+#valorObjetivo, #tituloObjetivo {
+    border-radius: 15px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.tittleObjetivos {
+    color: #1050c7;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1406px) {
+    body, html {
+        display: flex;
+        flex-direction: column;
+        min-height: 130%;
+        width: 100%;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    #valorObjetivo, #tituloObjetivo {
+        width: 150px;
+    }
+    .novoObjetivo textarea {
+        width: 240px;
+    }
+    .content {
+        align-items: start;
+        display: block;
+    }
+}
+
+
+
+
+
