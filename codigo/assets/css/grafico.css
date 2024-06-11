@@ -28,7 +28,7 @@
     display: flex;
     gap: 10px;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .categorias ul li {
@@ -87,11 +87,5 @@
 }
 
 .grafico {
-    width: 80px;
-    height: 80px;
-    background: transparent;
-    border: 60px solid black;
-    border-radius: 50%;
-    border-top-color: red;
-    border-left-color: purple;
+    max-width: 500px;
 }
