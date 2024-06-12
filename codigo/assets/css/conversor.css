@@ -30,3 +30,55 @@ body {
 .inputdestino {
     width: 240px;
 }
+
+.lista-gastos {
+    margin: 50px 20px;
+}
+
+.lista-gastos ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.lista-gastos li {
+    margin: 30px 0px;
+    list-style-type: none;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.lista-gastos li::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: block;
+}
+
+.lista-gastos li.ganho::before {
+    background-color: green;
+}
+
+.lista-gastos li.gasto::before {
+    background-color: red;
+}
+
+.gastos {
+    display: flex;
+    align-items: center;
+}
+
+.caixa-grafico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.grafico {
+    max-width: 500px;
+}
