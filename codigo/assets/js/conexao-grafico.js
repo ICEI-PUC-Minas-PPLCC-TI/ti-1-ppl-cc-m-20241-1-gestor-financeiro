@@ -1,4 +1,4 @@
-const apiurl = "https://1a770c80-41ff-4f19-8cb5-699967f55bcb-00-1395yp0me7mv2.kirk.replit.dev/extrato"
+const apiurl = "https://0304e0ed-a2a1-4185-8e34-d427877174d8-00-1f0523yfra2u.worf.replit.dev/extrato"
 const extratoElemento = document.querySelector(".extrato")
 const categoriasElemento = document.querySelector(".categorias ul")
 const categoriasBotao = document.querySelectorAll(".btn-categoria")
