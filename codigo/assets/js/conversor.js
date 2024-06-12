@@ -24,16 +24,19 @@ async function converterMoeda() {
     const response = await fetch('https://1a770c80-41ff-4f19-8cb5-699967f55bcb-00-1395yp0me7mv2.kirk.replit.dev/extrato');
     const data = await response.json();
 
-    var taxaRealParaDolar = 0.19;
-    var taxaRealParaEuro = 0.15;
-
+    
     var extratoHTML = '';
     var labels = [];
     var graphData = [];
-
+    
     data.forEach(item => {
         var valorOrigem = parseFloat(item.valor);
         var resultado = valorOrigem;
+
+        console.log(valorOrigem);
+        
+        var taxaRealParaDolar = 0.19;
+        var taxaRealParaEuro = 0.15;
 
         if (item.moeda === 'real' && moedaDestino === 'dolar') {
             resultado = valorOrigem * taxaRealParaDolar;
@@ -41,11 +44,12 @@ async function converterMoeda() {
             resultado = valorOrigem * taxaRealParaEuro;
         }
 
+
         if (!isNaN(resultado)) {
             var tipo = item.tipo === "Gasto" ? "gasto" : "ganho";
             extratoHTML += `<li class="${tipo}">${simbolo} ${resultado.toFixed(2)} (${item.descricao})</li>`;
             labels.push(item.descricao);
-            graphData.push(parseFloat(resultado.toFixed(2))); // Corrige para ser um número em vez de string
+            graphData.push(parseFloat(resultado.toFixed(2)));
         }
     });
 
