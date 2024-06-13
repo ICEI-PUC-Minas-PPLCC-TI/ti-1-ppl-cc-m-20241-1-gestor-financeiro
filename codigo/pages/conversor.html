@@ -13,32 +13,38 @@
 </head>
 
 <body>
-    <div class="conteudo">
-        <h1>Escolha uma moeda para converter seus gastos e ganhos</h1>
-        <div class="input-group mb-3 inputdestino">
-            <select class="custom-select" id="moedaDestino">
-                <option selected>MOEDA DESTINO</option>
-                <option value="dolar">Dolar</option>
-                <option value="euro">Euro</option>
-                <option value="real">Real</option>
-            </select>
-        </div>
-
-        <h1>Resultado</h1>
-        <div class="categorias">
-            <button class="btn-todos" onclick="filtrarCategoria('todos')">Geral</button>
-            <button class="btn-gastos" onclick="filtrarCategoria('gasto')">Gastos</button>
-            <button class="btn-ganhos" onclick="filtrarCategoria('ganho')">Ganhos</button>
-        </div>
-        <div class="gastos">
-            <div class="lista-gastos">
-                <h1>Gastos e Ganhos convertidos:</h1>
-                <ul class="extrato">
-                </ul>
+    <a href="/codigo/pages/pagina-principal.html" class="btn btn-primary voltar-btn">Voltar</a>
+    <div class="container">
+        <div class="conteudo">
+            <h1 id="tituloCategoria">Escolha uma moeda para converter seus gastos e ganhos</h1>
+            <div class="input-group mb-3 inputdestino">
+                <select class="custom-select" id="moedaDestino">
+                    <option selected>MOEDA DESTINO</option>
+                    <option value="dolar">Dolar</option>
+                    <option value="euro">Euro</option>
+                    <option value="real">Real</option>
+                </select>
             </div>
-            <div class="caixa-grafico">
-                <div class="grafico-caixa">
-                    <canvas id="grafico"></canvas>
+
+            <h1>Resultado</h1>
+            <div class="categorias">
+                <button class="btn-todos">Geral</button>
+                <button class="btn-gastos">Gastos</button>
+                <button class="btn-ganhos">Ganhos</button>
+            </div>
+            <div class="gastos">
+                <div>
+                    <h1>Gastos e Ganhos convertidos:</h1>
+                </div>
+                <div></div>
+                <div class="lista-gastos">
+                    <ul class="extrato">
+                    </ul>
+                </div>
+                <div class="caixa-grafico">
+                    <div class="grafico-caixa">
+                        <canvas id="grafico"></canvas>
+                    </div>
                 </div>
             </div>
         </div>

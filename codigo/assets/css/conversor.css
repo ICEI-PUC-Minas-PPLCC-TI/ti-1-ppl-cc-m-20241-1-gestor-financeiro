@@ -7,6 +7,37 @@ body {
     background-color: gray;
 }
 
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.voltar-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.voltar-btn:hover {
+    background-color: rgb(187, 181, 181);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.categorias button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+.categorias button:hover {
+    background-color: rgb(192, 187, 187);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+
 .conteudo {
     display: flex;
     flex-direction: column;
@@ -68,7 +99,8 @@ body {
 }
 
 .gastos {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
 
