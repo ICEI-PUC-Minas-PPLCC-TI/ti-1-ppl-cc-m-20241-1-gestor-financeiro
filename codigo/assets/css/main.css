@@ -1,0 +1,50 @@
+.tela{
+padding: 65px 65px;
+
+}
+
+#ft-perfil{
+    width: 140px;
+    height:100px;
+overflow: hidden;
+margin-bottom: 8px;
+margin-left: 5px;
+}
+
+#nome{
+    font-weight: bold;
+}
+
+#senha{
+    background-color: green;
+    margin-top: 8px;
+    margin-left: 10px;
+    outline: none;
+    text-decoration: none;
+}
+
+.list-group{
+    padding-right: 30%;
+}
+
+#altperfil{
+    margin-top: 8px;
+    overflow: hidden;
+    outline: none;
+    text-decoration: none;
+    
+}
+#link{
+    padding-right: auto;
+    width: auto;
+    text-decoration: none;
+    outline: none;
+}
+#cadastro{
+    background-color: green;
+    margin-top: 8px;
+    margin-left: 10px;
+    outline: none;
+    text-decoration: none;
+
+}
