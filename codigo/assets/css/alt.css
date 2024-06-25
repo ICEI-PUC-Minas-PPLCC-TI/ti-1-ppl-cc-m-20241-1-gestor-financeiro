@@ -1,0 +1,30 @@
+.txt{
+    font-weight: bold;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    margin-bottom: 5px;
+}
+#botao{
+
+ background-color: green;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#principal{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#volta{
+height: 20px;
+width: 30px;
+display: flex;
+margin-left: 30px;
+margin-top: 25px;
+color: black;
+
+}
