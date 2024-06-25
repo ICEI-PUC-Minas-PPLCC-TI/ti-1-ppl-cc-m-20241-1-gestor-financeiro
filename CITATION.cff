@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title: InvestBein - Aplicativo de gerenciamento financeiro
@@ -17,49 +16,25 @@ authors:
     given-names: Arthur
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Vieira Carneiro
+    given-names: Rommel
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-keywords: Investimentos, Bancos, Educação financeira, controle de gastos, organização, Dinheiro, Dicas e objetivos
-  - 
-  - 
+    family-names: Simões Silva
+    given-names: Tamara
+keywords: 
+  - Investimentos
+  - Educação Financeira
+  - Controle de gastos
+  - Organização
+  - Dinheiro
+  - Dicas
+  - Objetivos
+
 repository-code: https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20241-1-gestor-financeiro
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-14
-=======
-cff-version: 1.0.1
-message: Please cite this software using these metadata.
-title: 
-authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-keywords:
-  - 
-  - 
-repository-code: 
-license: CC-BY-4.0
-version: 1.0.0
-date-released: 2022-07-14
+
+
 >>>>>>> 576e4073eb686b7caee5801aac8f95491eb4d605
