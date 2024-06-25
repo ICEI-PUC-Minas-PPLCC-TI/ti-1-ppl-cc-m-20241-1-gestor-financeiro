@@ -1,0 +1,55 @@
+.alterar{
+padding: 50px 50px;
+
+}
+#altsenha{
+background-color: green;
+text-align: center;
+padding-left: 50px;
+padding-right: 50px;
+display: flex;
+justify-content: center;
+margin-left: auto;
+margin-right: auto ;
+text-decoration: none;
+}
+#texto-senha{
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-decoration: none;
+    outline: none;
+    
+}
+#texto-email{
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-decoration: none;
+    outline: none;
+}
+#altemail{
+    background-color: green;
+text-align: center;
+padding-left: 50px;
+padding-right: 50px;
+display: flex;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+text-decoration: nome;
+}
+#volta{
+    height: 20px;
+    width: 30px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 25px;
+    color: blue;
+}
+.link{
+    text-decoration: none;
+    outline: none;
+}
