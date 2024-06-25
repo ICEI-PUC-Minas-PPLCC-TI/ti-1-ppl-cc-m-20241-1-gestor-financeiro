@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: InvestBein - Aplicativo de gerenciamento financeiro
 authors:
   - family-names: 
     given-names: 
@@ -26,7 +26,7 @@ authors:
 keywords:
   - 
   - 
-repository-code: 
+repository-code: https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20241-1-gestor-financeiro
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-14
@@ -37,8 +37,8 @@ title:
 authors:
   - family-names: 
     given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Costa Vianna
+    given-names: Gabriel
   - family-names: 
     given-names: 
   - family-names: 
