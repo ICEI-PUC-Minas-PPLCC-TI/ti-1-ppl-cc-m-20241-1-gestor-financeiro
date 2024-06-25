@@ -2,26 +2,26 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title: InvestBein - Aplicativo de gerenciamento financeiro
 authors:
-  - family-names: Costa Vianna
-    given-names: Gabriel
-  - family-names: Luttembarck Vieira
-    given-names: Eduardo
-  - family-names: Stancioli Siqueira
-    given-names: Lucas
-  - family-names: Figueredo de Oliveira
-    given-names: Thiago Henrique
-  - family-names: Pires Mascarenhas
-    given-names: Bernardo
-  - family-names: Costa Serra Negra
-    given-names: Arthur
+  - family-names: "Costa Vianna"
+    given-names: "Gabriel"
+  - family-names: "Luttembarck Vieira"
+    given-names: "Eduardo"
+  - family-names: "Stancioli Siqueira"
+    given-names: "Lucas"
+  - family-names: "Figueredo de Oliveira"
+    given-names: "Thiago Henrique"
+  - family-names: "Pires Mascarenhas"
+    given-names: "Bernardo"
+  - family-names: "Costa Serra Negra"
+    given-names: "Arthur"
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Vieira Carneiro
-    given-names: Rommel
+    family-names: "Vieira Carneiro"
+    given-names: "Rommel"
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Simões Silva
-    given-names: Tamara
+    family-names: "Simões Silva"
+    given-names: "Tamara"
 keywords: 
   - Investimentos
   - Educação Financeira
