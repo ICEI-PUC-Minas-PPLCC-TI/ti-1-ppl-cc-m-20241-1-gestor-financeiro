@@ -1,32 +1,55 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de investimentos</title>
-    <link rel="stylesheet" href="/codigo/assets/css/calculadora.css">
+    <title>Calculadora de Investimentos</title>
+    <link rel="stylesheet" href="calculadora.css">
 </head>
 <body>
     <div class="fundo">
-        <img src="/codigo/assets/images/IMG.png.jpg" alt="">
         <div class="calculadora">
-                <tr>
-                    <h1>Anos:</h1>
-                    <td><button class="botao">anos</button></td>
-                </tr>
-                <tr>
-                     <h1>Meses:</h1>
-                    <td><button class="botao">meses</button></td>
-                </tr>
-                <tr>
-                    <h1>Dias:</h1>
-                    <td><button class="botao">dias</button></td>
-                </tr>
-                <tr>
-                    <p id="resultado">resultado</p>
-                </tr>
+            <h1>Preencha as informações abaixo:</h1>
+            <input type="number" id="renda" class="inf" placeholder="Renda" required>
+            <select id="investimento" class="inf" required>
+                <option value="" disabled selected>Escolha o tipo de investimento</option>
+                <option value="0.08">USDT</option>
+                <option value="0.13">CDB</option>
+                <option value="0.06">FIRF</option>
+                <option value="0.12">LCI</option>
+                <option value="0.06">CBD liquidez diária</option>
+                <option value="0.07">MXRF11</option>
+                <option value="0.07">LIG</option>
+                <option value="0.16">YDUQ3</option>
+                <option value="0.10">BOVA11</option>
+            </select>
+            <input type="number" id="anos" class="inf" placeholder="Anos" required>
+            <input type="number" id="meses" class="inf" placeholder="Meses" required>
+            <input type="number" id="dias" class="inf" placeholder="Dias" required>
+            <button onclick="calcularLucro()">Calcular</button>
+            <h1>Resultado</h1>
+            <div id="resultado"></div>
         </div>
     </div>
 
+    <script>
+        function calcularLucro() {
+            const renda = parseFloat(document.getElementById('renda').value);
+            const lucroAnual = parseFloat(document.getElementById('investimento').value);
+            const anos = parseInt(document.getElementById('anos').value);
+            const meses = parseInt(document.getElementById('meses').value);
+            const dias = parseInt(document.getElementById('dias').value);
+
+            const totalMeses = anos * 12 + meses;
+            const totalDias = totalMeses * 30 + dias;
+            const totalAnos = totalDias / 365;
+
+            const lucroTotal = renda * Math.pow(1 + lucroAnual, totalAnos);
+            const lucro = lucroTotal - renda;
+
+            document.getElementById('resultado').innerText = `Lucro: R$ ${lucro.toFixed(2)}`;
+        }
+    </script>
 </body>
 </html>
