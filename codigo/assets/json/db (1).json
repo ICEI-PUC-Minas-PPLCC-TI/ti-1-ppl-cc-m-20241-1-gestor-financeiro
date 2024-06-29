@@ -1,0 +1,41 @@
+{
+  "extrato": [
+    {
+      "id": 0,
+      "valor": "120",
+      "tipo": "Gasto",
+      "descricao": "PIX pro rod"
+    },
+    {
+      "id": 1,
+      "valor": "200",
+      "tipo": "Ganho",
+      "descricao": "PIX salario"
+    },
+    {
+      "id": 1,
+      "valor": "330",
+      "tipo": "Ganho",
+      "descricao": "PIX "
+    },
+    {
+      "id": 0,
+      "valor": "80",
+      "tipo": "Gasto",
+      "descricao": "PIX mercado"
+    },
+    {
+    "id": 0,
+    "valor": "150",
+    "tipo": "Gasto",
+    "descricao": "Almoco"
+    },
+    {
+    "id": 0,
+    "valor": "40",
+    "tipo": "Gasto",
+    "descricao": "farmacia"
+    }
+    
+  ]
+}
