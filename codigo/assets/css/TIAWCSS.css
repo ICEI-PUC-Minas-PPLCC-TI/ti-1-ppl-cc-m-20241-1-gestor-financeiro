@@ -89,3 +89,11 @@ select.form-control:focus {
     border-color: #0d47a1;
     box-shadow: none;
 }
+#volta{
+    height: 20px;
+    width: 30px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 25px;
+    color: blue;
+}

@@ -12,7 +12,7 @@
 // Data: 03/10/2023
 
 // URL da API JSONServer - Substitua pela URL correta da sua API
-const apiUrl = 'https://ae755567-1daa-4513-8df6-979f97741434-00-2n706vb4uxpkh.kirk.replit.dev/contatos';
+const apiUrl = 'https://1a770c80-41ff-4f19-8cb5-699967f55bcb-00-1395yp0me7mv2.kirk.replit.dev/investimentos';
 //const apiUrl = 'https://jsonserver.rommelpuc.repl.co/contatos'; 
 
 function displayMessage(mensagem) {
@@ -27,8 +27,8 @@ function readContato(processaDados) {
             processaDados(data);
         })
         .catch(error => {
-            console.error('Erro ao ler contatos via API JSONServer:', error);
-            displayMessage("Erro ao ler contatos");
+            console.error('Erro ao ler investimentos via API JSONServer:', error);
+            displayMessage("Erro ao ler investimentos");
         });
 }
 
@@ -42,13 +42,13 @@ function createContato(contato, refreshFunction) {
     })
         .then(response => response.json())
         .then(data => {
-            displayMessage("Contato inserido com sucesso");
+            displayMessage("Investimento inserido com sucesso");
             if (refreshFunction)
                 refreshFunction();
         })
         .catch(error => {
-            console.error('Erro ao inserir contato via API JSONServer:', error);
-            displayMessage("Erro ao inserir contato");
+            console.error('Erro ao inserir investimento via API JSONServer:', error);
+            displayMessage("Erro ao inserir investimento");
         });
 }
 
@@ -62,13 +62,13 @@ function updateContato(id, contato, refreshFunction) {
     })
         .then(response => response.json())
         .then(data => {
-            displayMessage("Contato alterado com sucesso");
+            displayMessage("Investimento alterado com sucesso");
             if (refreshFunction)
                 refreshFunction();
         })
         .catch(error => {
-            console.error('Erro ao atualizar contato via API JSONServer:', error);
-            displayMessage("Erro ao atualizar contato");
+            console.error('Erro ao atualizar investimento via API JSONServer:', error);
+            displayMessage("Erro ao atualizar investimento");
         });
 }
 
@@ -78,12 +78,12 @@ function deleteContato(id, refreshFunction) {
     })
         .then(response => response.json())
         .then(data => {
-            displayMessage("Contato removido com sucesso");
+            displayMessage("Investimento removido com sucesso");
             if (refreshFunction)
                 refreshFunction();
         })
         .catch(error => {
-            console.error('Erro ao remover contato via API JSONServer:', error);
-            displayMessage("Erro ao remover contato");
+            console.error('Erro ao remover investimento via API JSONServer:', error);
+            displayMessage("Erro ao remover investimento");
         });
 }
