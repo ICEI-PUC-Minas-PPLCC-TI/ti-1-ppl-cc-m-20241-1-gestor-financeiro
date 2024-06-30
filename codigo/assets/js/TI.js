@@ -1,5 +1,4 @@
 const apiUrl = 'https://ae755567-1daa-4513-8df6-979f97741434-00-2n706vb4uxpkh.kirk.replit.dev/contatos';
-//const apiUrl = 'https://jsonserver.rommelpuc.repl.co/contatos'; 
 
 function displayMessage(mensagem) {
     msg = document.getElementById('msg');
