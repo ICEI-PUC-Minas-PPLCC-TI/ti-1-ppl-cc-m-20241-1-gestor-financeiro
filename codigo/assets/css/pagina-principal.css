@@ -3,9 +3,14 @@ body, html {
     padding: 0;
     height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     background-color: gray;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
 }
 
 .container {
