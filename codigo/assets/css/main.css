@@ -1,6 +1,10 @@
+body, html {
+    background-color: gray;
+}
+
 .tela{
 padding: 65px 65px;
-
+background-color: gray;
 }
 
 #ft-perfil{

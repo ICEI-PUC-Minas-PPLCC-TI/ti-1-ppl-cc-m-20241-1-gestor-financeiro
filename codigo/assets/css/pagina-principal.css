@@ -5,6 +5,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 .container {
@@ -29,7 +30,7 @@ body, html {
 .buttons a {
     display: block;
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #000000;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;

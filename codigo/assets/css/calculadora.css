@@ -7,7 +7,7 @@
 
 
 .fundo {
-    background-image: linear-gradient(45deg, green, white, blue);
+    background-color: gray;
     height: 100vh;
     display: flex;
     justify-content: center;
