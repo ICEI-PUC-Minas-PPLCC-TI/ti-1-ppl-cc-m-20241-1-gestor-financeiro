@@ -82,8 +82,9 @@ Personas: 1- Nome : Guilherme
 
 ## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
+Guilherme sempre sonhou em conseguir viajar com sua familia pela Europa, mas nunca conseguiu juntar o dinheiro para tal.
+Larissa ganha uma quantidade boa de dinheiro mas nunca consegue guardar.
+Marcio vem de familia humilde e nunca teve dinheiro por sempre estar endividado
 **Links Úteis**:
 
 - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -112,7 +113,7 @@ Requisitos não funcionais: tela de configuração
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwURCZOCYoNkmGH08QuIzgK%2FUntitled%3Fnode-id%3D1-2%26t%3DyEGVz0RVLNux6FZg-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26page-id%3D0%3A1%26starting-point-node-id%3D1%3A2" allowfullscreen></iframe>
 
 **Links Úteis**:
 
