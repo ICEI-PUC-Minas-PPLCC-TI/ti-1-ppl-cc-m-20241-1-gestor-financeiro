@@ -2,8 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #FAF4F2;
-    background: -webkit-linear-gradient(#FAF4F2, #c2b6b6);
+    background-color: gray;
 }
 
 body {
