@@ -1,0 +1,249 @@
+button.button {
+  background: #000;
+  padding: 10px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+  color: white;
+  margin: 50px;
+}
+
+.titulo{
+  color: green;
+  font-size: 60px;
+}
+
+.metas-caixa {
+  background-color: gray;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.dicas_de_gastos {
+  background-color:rgb(240, 240, 229) ;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.conteudo {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo h1 {
+  margin: 0 auto;
+}
+
+.conteudo form {
+  background-color:rgb(235, 226, 226);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 10px;
+}
+
+.conteudo form button {
+  background-color: rgb(186, 233, 117);
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 0;
+  margin-top: 20px;
+}
+
+.conteudo p {
+  background-color: rgb(186, 233, 117);
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: white;
+}
+
+.conteudo .dica2 {
+  background-color: green;
+}
+
+.conteudo .dica3 {
+  background-color: red;
+}
+.botao_saibamais{
+  background-color: #000000;
+  color: white;
+}
+
+.titulo2{
+  color: green;
+}
+
+.oquepodegastar{
+  background-color:rgb(240, 240, 229) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.oquepodegastar .infos h1 {
+  font-size: 48px;
+}
+
+.oquepodegastar .infos h5 {
+  font-size: 24px;
+}
+
+.oquepodegastar .opcoes {
+  font-size: 18px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.opcoes li {
+  background: #000;
+  padding: 10px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+}
+
+.botaoVoltar {
+  background: #000;
+  padding: 10px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+  color: white;
+  margin: 50px;
+}
+
+.opcoes li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bancos_opcoes{
+  background-color:rgb(240, 240, 229) ;
+}
+.opcoes_bancos {
+  text-align: center;
+  margin-top:20px;
+
+}
+
+#fotobanco {
+  display: flex;
+  justify-content:space-around;
+  margin-top: 300px;
+}
+
+#fotobanco img {
+  width: 400px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.opcoes_bancos{
+  color: green;
+}
+
+.home {
+  background: #000000;
+  padding: 10px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+#supermercados{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+  gap: 20px;
+}
+
+#supermercados img{
+  width: 400px;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  object-position: center center;
+}
+
+#roupas{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+  gap: 20px;
+}
+
+#roupas img{
+  max-width: 400px;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  object-position: center center;
+}
+
+#esportivos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+  gap: 20px;
+}
+
+#esportivos img{
+  max-width: 400px;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  object-position: center center;
+}
+
+#diversos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+  gap: 20px;
+}
+
+#diversos img{
+  max-width: 400px;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  object-position: center center;
+}
+
+
+#domesticos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+  gap: 20px;
+}
+
+#domesticos img{
+  max-width: 400px;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  object-position: center center;
+}
+
+
+#farmacia{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+  gap: 20px;
+}
+
+#farmacia img{
+  max-width: 400px;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.compras{
+  background-color:rgb(240, 240, 229) ;
+}
