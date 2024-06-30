@@ -82,8 +82,8 @@ Personas: 1- Nome : Guilherme
 
 ## Histórias de Usuários
 
-Guilherme sempre sonhou em conseguir viajar com sua familia pela Europa, mas nunca conseguiu juntar o dinheiro para tal.
-Larissa ganha uma quantidade boa de dinheiro mas nunca consegue guardar.
+Guilherme sempre sonhou em conseguir viajar com sua familia pela Europa, mas nunca conseguiu juntar o dinheiro para tal.<br>
+Larissa ganha uma quantidade boa de dinheiro mas nunca consegue guardar.<br>
 Marcio vem de familia humilde e nunca teve dinheiro por sempre estar endividado
 **Links Úteis**:
 
@@ -113,7 +113,7 @@ Requisitos não funcionais: tela de configuração
 
 ## User Flow
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwURCZOCYoNkmGH08QuIzgK%2FUntitled%3Fnode-id%3D1-2%26t%3DyEGVz0RVLNux6FZg-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26page-id%3D0%3A1%26starting-point-node-id%3D1%3A2" allowfullscreen></iframe>
+https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwURCZOCYoNkmGH08QuIzgK%2FUntitled%3Fnode-id%3D1-2%26t%3DyEGVz0RVLNux6FZg-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26page-id%3D0%3A1%26starting-point-node-id%3D1%3A2
 
 **Links Úteis**:
 
@@ -123,7 +123,7 @@ Requisitos não funcionais: tela de configuração
 
 ## Wireframes
 
-<object data="/sprint1/Wireframe.pdf" type="application/pdf" width="100%" height="500px"></object>
+<a href="/sprint1/Wireframe.pdf">Wireframe.pdf</a>
 
 **Links Úteis**:
 
