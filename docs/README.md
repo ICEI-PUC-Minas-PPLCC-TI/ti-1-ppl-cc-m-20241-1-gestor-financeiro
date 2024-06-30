@@ -20,9 +20,7 @@ Esta seção traz explicações breves sobre o conjunto de artefatos que precisa
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+O aplicativo "Investe Bein" é a solução para problemas financeiros, como dívidas, que, muitas vezes, se original e se acumulam devido ao desconhecimento a respeito de como organizar as próprias finanças. O aplicativo auxilia o usuário a usar seu dinheiro de forma sábia, podendo economizar uma certa renda, alertar o usuário à respeito de seus gastos, ou orientá-lo para investir seu dinheiro.
 
 **Links Úteis**:
 
@@ -32,7 +30,7 @@ Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Think
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O "Invest Bein" tem, como principal objetivo, ajudar os usuários a quitarem suas dívidas. Porém, o aplicativo também pode auxiliar pessoas que não se encontram endividadas. Usuários que possuem alguma meta envolvendo suas finanças, para qualquer objetivo, também são bem-vindos para fazer uso do app. É certo que existem muitas pessoas que não conseguem organizar suas finanças e acabam se endividando, e muitas vezes não sabem como investir.
 
 **Links Úteis**:
 
@@ -40,9 +38,7 @@ Aqui você deve descrever os objetivos do trabalho indicando que o objetivo gera
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Escolhemos trabalhar com esse projeto , pois, é um tema que atinge a maioria da população brasileira atualmente, visto que muitos não possuem a escolaridade necessaria ou o tempo para a pesquisa e o entendimento para a educação financeira. Além disso o software possue diversas funções que nos ajudam a crescer nos conhecimentos de programação como o uso de banco de dados.
 
 **Links Úteis**:
 
@@ -50,9 +46,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
+O aplicativo, por sua vez, tem um público alvo de faixa etária entre 25 e 60 anos, incluindo pessoas mais jovens e mais velhas. Tais usuários podem ou não ter Ensino Médio e Ensino Superior completo, uma vez que o nível de escolaridade do sujeito em questão não afetará no uso do aplicativo. Ademais, o aplicativo exige que o usuário tenha uma fonte de renda para usar o aplicativo, considerando que uma fonte é essencial para controlar finanças.
 
 **Links Úteis**:
 
@@ -61,7 +55,23 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 ## Personas
 
-Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
+Personas: 1- Nome : Guilherme
+             Idade : 35
+             Hobby : eventos de carro, passar tempo com a familia
+             trabalho : funcionario publico
+             objetivos : levar a familia para conhecer a europa
+
+             2- Nome : Larissa 
+             Idade : 28
+             Hobby : sair com as amigas e jogar tenis
+             trabalho : dentista
+             objetivos : Conseguir organizar o salario e saber como investir ele.
+
+             3- Nome : marcio
+             Idade : 46
+             Hobby : churrasco e futebol
+             trabalho : guarda municipal
+             objetivos : estabilidade financeira e quitar suas dividas
 
 **Links Úteis**:
 
@@ -81,14 +91,19 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ## Requisitos
 
-Os requisitos de um projeto são classificados em dois grupos:
+Requisitos funcionais: Banco de dados de metas 
+                       Banco de dados de categorias
+                       Banco de dados valores
+                       Hospedagem do site
+                       permitir que o usuario cadastre tarefas
+                       emitir um relatorio de tarefas no final do mes
 
-- [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
 
-Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+Requisitos não funcionais: tela de configuração
+                           Gráfico de gastos por mes
+                           tela para update de dados 
+                           O sistema deve ser responsivo para rodar em um dispositivos móvel            
+                           Deve processar requisições do usuário em no máximo 3s       
 
 **Links Úteis**:
 
@@ -107,7 +122,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
+<object data="/sprint1/Wireframe.pdf" type="application/pdf" width="100%" height="500px"></object>
 
 **Links Úteis**:
 
@@ -118,9 +133,10 @@ Wireframes são protótipos das telas da aplicação usados em design de interfa
 
 ## Gestão de Projetos
 
- Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
-
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Scurm master : Eduardo Vieira
+product owner: thiago henrique
+Desenvolvedores: todos do grupo
+Documentação: Eduardo Vieira e Bernardo Pires
 
 **Links Úteis**:
 
