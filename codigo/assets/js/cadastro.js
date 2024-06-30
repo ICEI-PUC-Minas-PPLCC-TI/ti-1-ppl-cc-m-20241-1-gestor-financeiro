@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         localStorage.setItem('profile', JSON.stringify(profile));
 
-        window.location.href = 'tela.html';
+        window.location.href = '/codigo/pages/pagina-principal.html';
         
         
     });
