@@ -100,8 +100,8 @@ https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fp
 
 ## Gestão de Projetos
 
-Scurm master : Eduardo Vieira
-product owner: thiago henrique
-Desenvolvedores: todos do grupo
+Scurm master : Eduardo Vieira <br>
+product owner: thiago henrique <br>
+Desenvolvedores: todos do grupo <br>
 Documentação: Eduardo Vieira e Bernardo Pires
 
