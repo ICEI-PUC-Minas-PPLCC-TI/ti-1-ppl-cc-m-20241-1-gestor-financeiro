@@ -1,10 +1,10 @@
 body, html {
-    background-color: gray;
+    background-color: rgb(179, 178, 178);
 }
 
 .tela{
 padding: 65px 65px;
-background-color: gray;
+background-color: rgb(179, 178, 178);
 }
 
 #ft-perfil{

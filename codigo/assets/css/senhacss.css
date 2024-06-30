@@ -1,5 +1,10 @@
+body, html {
+    background-color: rgb(179, 178, 178);
+}
+
 .alterar{
 padding: 50px 50px;
+background-color: rgb(179, 178, 178);
 
 }
 #altsenha{
@@ -45,9 +50,9 @@ text-decoration: nome;
     height: 20px;
     width: 30px;
     display: flex;
-    margin-left: 50px;
     margin-top: 25px;
-    color: blue;
+    color: blue;    
+    background-color: rgb(179, 178, 178);
 }
 .link{
     text-decoration: none;

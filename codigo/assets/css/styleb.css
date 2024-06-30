@@ -14,13 +14,13 @@ button.button {
 }
 
 .metas-caixa {
-  background-color: rgb(173, 169, 169);
+  background-color: rgb(136, 135, 135);
   padding: 12px;
   border-radius: 8px;
 }
 
 .dicas_de_gastos {
-  background-color:gray;
+  background-color: rgb(179, 178, 178);
   display: grid;
   place-items: center;
   min-height: 100vh;

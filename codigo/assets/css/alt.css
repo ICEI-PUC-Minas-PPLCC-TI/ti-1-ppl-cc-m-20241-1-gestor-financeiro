@@ -28,3 +28,7 @@ margin-top: 25px;
 color: black;
 
 }
+
+body, html {
+    background-color: rgb(179, 178, 178);
+}

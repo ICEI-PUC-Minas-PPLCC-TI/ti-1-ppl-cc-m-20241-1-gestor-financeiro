@@ -22,7 +22,7 @@ label {
      cursor: pointer;
  }
 body {
-    background-color: #e3f2fd;
+    background-color: rgb(179, 178, 178);
     color: #333;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

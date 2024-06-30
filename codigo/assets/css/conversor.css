@@ -4,7 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: gray;
+    background-color: rgb(179, 178, 178);
 }
 
 .container {
@@ -44,7 +44,7 @@ body {
     align-items: center;
     border: 1px solid black;
     padding: 35px;
-    background-color: rgb(192, 190, 190);
+    background-color: rgb(161, 159, 159);
 }
 
 .input-group {
