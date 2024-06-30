@@ -84,8 +84,6 @@
     align-items: center;
     justify-content: center;
     flex: 1;
+   
 }
 
-.grafico {
-    max-width: 500px;
-}
