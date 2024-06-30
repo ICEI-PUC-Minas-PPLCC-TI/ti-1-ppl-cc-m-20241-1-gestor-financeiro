@@ -116,3 +116,9 @@ body,
     .extrato li.gasto::before {
         background-color: #f00;
     }
+
+    #grafico-container {
+        width: 
+        margin: 0 auto;
+     
+    }
