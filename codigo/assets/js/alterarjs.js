@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         localStorage.setItem('profile', JSON.stringify(profile));
 
-        window.location.href = 'tela.html';
+        window.location.href = 'perfil.html';
         
         
     });
