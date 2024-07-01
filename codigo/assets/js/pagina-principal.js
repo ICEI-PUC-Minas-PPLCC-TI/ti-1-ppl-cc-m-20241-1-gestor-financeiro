@@ -62,3 +62,14 @@ async function carregar_dados() {
 }
 
 window.addEventListener("load", carregar_dados)
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const fotoElem = document.getElementById('ft-perfil');
+
+    const profile = JSON.parse(localStorage.getItem('profile'));
+
+    if (profile) {
+        fotoElem.src = profile.foto || 'profile.jpeg';
+    }
+});

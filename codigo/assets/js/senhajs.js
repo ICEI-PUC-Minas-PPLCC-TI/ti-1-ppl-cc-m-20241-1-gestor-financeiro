@@ -38,3 +38,4 @@ document.getElementById('altemail').addEventListener('click', () => {
         document.getElementById('email-atual').textContent = novoEmail;
     }
 });
+

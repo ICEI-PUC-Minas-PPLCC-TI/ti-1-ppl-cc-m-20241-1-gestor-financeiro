@@ -1,0 +1,195 @@
+{
+  "extrato": [
+    {
+      "tipo": "Ganho",
+      "valor": "150.00",
+      "descricao": "forrei",
+      "titulo": "pix",
+      "id": 1
+    },
+    {
+      "tipo": "Gasto",
+      "valor": "5.00",
+      "descricao": "lanche puc",
+      "titulo": "pao de queijo",
+      "id": 2
+    },
+    {
+      "tipo": "Ganho",
+      "valor": "150.00",
+      "descricao": "venda petshop",
+      "titulo": "racao de cachorro",
+      "id": 3
+    },
+    {
+      "tipo": "Gasto",
+      "valor": "15.00",
+      "descricao": "puc",
+      "titulo": "lanche",
+      "id": 4
+    },
+    {
+      "tipo": "Ganho",
+      "valor": "200.00",
+      "descricao": "freelance",
+      "titulo": "desenvolvimento web",
+      "id": 5
+    },
+    {
+      "tipo": "Ganho",
+      "valor": "75.00",
+      "descricao": "presente",
+      "titulo": "aniversario",
+      "id": 6
+    },
+    {
+      "tipo": "Ganho",
+      "valor": "100.00",
+      "descricao": "premio",
+      "titulo": "competicao",
+      "id": 7
+    },
+    {
+      "tipo": "Gasto",
+      "valor": "20.00",
+      "descricao": "cinema",
+      "titulo": "ingresso",
+      "id": 8
+    },
+    {
+      "tipo": "Gasto",
+      "valor": "50.00",
+      "descricao": "supermercado",
+      "titulo": "compra mensal",
+      "id": 9
+    },
+    {
+      "tipo": "Gasto",
+      "valor": "30.00",
+      "descricao": "transporte",
+      "titulo": "uber",
+      "id": 10
+    }
+  ],
+  "objetivos": [
+    {
+      "titulo": "carro",
+      "valor": "150,000.00",
+      "descricao": "carrin novo pra roncar",
+      "id": 1
+    },
+    {
+      "titulo": "pagamento rod",
+      "valor": "15,000.00",
+      "descricao": "merecido",
+      "id": 2
+    }
+  ],
+  "investimentos": [
+    {
+      "nome": "CDB R",
+      "preco": "R$ 5,00",
+      "categoria": "LIQUIDEZ DIARIA",
+      "risco": "Médio",
+      "prazo": "Curto",
+      "website": "sem site",
+      "id": 1
+    },
+    {
+      "nome": "USDT",
+      "preco": "5,91",
+      "categoria": "Criptomoeda",
+      "risco": "Alto",
+      "prazo": "Longo",
+      "id": 2
+    },
+    {
+      "nome": "FIRF",
+      "preco": "100,00",
+      "categoria": "Renda Fixa",
+      "risco": "Médio",
+      "prazo": "Médio",
+      "id": 3
+    },
+    {
+      "nome": "LCI",
+      "preco": "R$ 100,00",
+      "categoria": "Renda Fixa",
+      "risco": "Baixo",
+      "prazo": "Curto",
+      "id": 4
+    },
+    {
+      "nome": "CDB LIQUIDEZ DIARIA",
+      "preco": "1,00",
+      "categoria": "Renda Fixa",
+      "risco": "Baixo",
+      "prazo": "Longo",
+      "id": 5
+    },
+    {
+      "nome": "LCI DI 1080",
+      "preco": "50,00",
+      "categoria": "Renda Fixa",
+      "risco": "Baixo",
+      "prazo": "Longo",
+      "id": 6
+    },
+    {
+      "nome": "Bitcoin",
+      "preco": "326.483,26",
+      "categoria": "Criptomoeda",
+      "risco": "Alto",
+      "prazo": "Longo",
+      "id": 7
+    },
+    {
+      "nome": "ETH",
+      "preco": "16.619,75",
+      "categoria": "Criptomoeda",
+      "risco": "Alto",
+      "prazo": "Longo",
+      "id": 8
+    },
+    {
+      "nome": "MXRF11",
+      "preco": "10,69",
+      "categoria": "Renda Variável",
+      "risco": "Médio",
+      "prazo": "Longo",
+      "id": 9
+    },
+    {
+      "nome": "IPCA + Global Opportunity",
+      "preco": "1.000",
+      "categoria": "COE",
+      "risco": "Médio",
+      "prazo": "Longo",
+      "id": 10
+    },
+    {
+      "nome": "LIG",
+      "preco": "100,00",
+      "categoria": "Renda Variável",
+      "risco": "Médio",
+      "prazo": "Médio",
+      "id": 11
+    },
+    {
+      "nome": "YDUQ3",
+      "preco": "12,85",
+      "categoria": "Renda Variável",
+      "risco": "Alto",
+      "prazo": "Longo",
+      "id": 12
+    },
+    {
+      "nome": "BOVA11",
+      "preco": "125,10",
+      "categoria": "Renda Variável",
+      "risco": "Alto",
+      "prazo": "Longo",
+      "id": 13
+    }
+  ]
+}
