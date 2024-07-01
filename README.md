@@ -4,12 +4,12 @@ O projeto Investe Bein se resume em um aplicativo que traz a solução para prob
 
 ## Alunos integrantes da equipe
 
-* Thiago Henrique Figueredo de Oliveira
-* Gabriel Costa Vianna
 * Arthur Costa Serra Negra
+* Gabriel Costa Vianna
 * Bernardo Pires Mascarenhas
 * Lucas Stancioli Siqueira
 * Eduardo Luttembarck Vieira
+* Thiago Henrique Figueredo de Oliveira
 
 ## Professores responsáveis
 
