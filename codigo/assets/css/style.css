@@ -24,3 +24,6 @@ button {
     background: #2b2a2a;
   }
   
+  body, html {
+    background-color: rgb(179, 178, 178);
+  }
